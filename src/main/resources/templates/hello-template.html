@@ -1,0 +1,6 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+    <!--hello! empty는 html 에서 마크업을 하기 위해 써 놓은것, 서버에서 잘 받아오고 하면 값이 치환되어 hello +{name} 값으로 보여짐-->
+        <p th:text="'hello '+ ${name}"> hello! empty</p>
+    </body>
+</html>
